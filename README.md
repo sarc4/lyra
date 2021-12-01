@@ -35,25 +35,26 @@ Integration:
 
 ## Detalle de los modulos
 
-| Modulo | Ubicación | Description
-| ---------- | ----------- | -----------
-| Dags (dangs/tax-info-hide) | app/code | Esta extensión se utiliza para ocultar la información del total de impuestos cuando se aplica.
-| Ebizmarts (mailchimp/mc-magento2) | app/code | Es una plataforma externa de email marketing que también permite informar carritos abandonados.
-|[Pack Magebig](#Pack-Magebig-contiene) | app/code | Es un Multipurpose Magento 2 pack que contiene el layout y  varios módulos para manejar apariencia de la tienda (cms. widget) y también contiene el ajax para filtros, carrito, buscador etc. Tiene similitudes a lo ofrecido en Mageplaza y Amasty con el layered navigation. En este módulo se esta basando la construcción del theme de  la tienda en  la carpeta “desing/frontend/MageBig/matfury”. Está activo y en uso.
-| Magefan/Blog (magefan/module-blog) | app/code | Extensión que te permite administrar  un blog sin tener que depender de ninguna segunda plataforma. No está en uso, tiene solamente un post test.
-| Magefan/Community (magefan/module-community) | app/code | Módulo base de Magefan y requerido en cualquier instalación de otro módulo del       mismo proveedor.
-| Magefan/Product Widget Advanced (magefan/module-wysiwyg-advanced) | app/code | Es un editor que permite cargar un widget de producto, páginas de CMS o contenidos de bloques de CMS utilizando el editor WYSIWYG. También puede insertar Product Widget en bloques específicos en las páginas de su tienda. Está activo pero no veo uso en la tienda.
-| Paradox Labs/Cybersource (paradoxlabs/cybersource) | app/code | Es una pasarela de pagos para tarjetas de crédito, es actualmente con lo que están realizando las transacciones a parte de pago en efectivo. Está activo y en uso.
-| Paradox Labs/Token Base (paradoxlabs/tokenbase) | app/code | Módulo base para los métodos de pago de tokenización de Paradox Labs. Está activo y en uso.
-| Stamped/Core | app/code | Permite mostrar contenido generado por el usuario (CGU), como reseñas y calificaciones con estrellas, mediante el uso de encuestas automatizadas y formularios en el correo electrónico. Está activo y en uso.
-|[Pack Magecomp SMS](#Pack-Magecomp-SMS-contiene) | app/code | Extensión de notificación por SMS. Envía a los clientes avisos sobre diversas actividades de estado de pedidos a través de mensajes de texto. Se encuentra en la versión Pro del pack. Está activo y en uso con un celular de prueba. 
-| Mcfadyen/Sap Integration (mcfadyen/module-sapintegration) | app/code | Es el módulo por el cual generan sus integraciones con el sistema SAP, actualmente con el endpoint de test. Endpoint: https://test.apitiendaamiga.com/api/Orders / Carpetas de desarrollos custom a revisar. (Revisar la instalación completa de Mcfayden pack).
-|[Pack Mageworx](#Pack-Mageworx-contiene) | vendor | Este paquete se encarga de todo lo referido a store locator y pickup llamando a google api para sus operaciones, se encuentra actualmente en su versión 1.6.1. Está activo y en uso. 
-| Cweagans (weagans/composer-patches) | vendor | Modulo para instalar patches en  Magento 2. Está activo y en uso.
-| Mageplaza/Social Login (mageplaza/magento-2-social-login) | vendor | Extensión para que el usuario haga un login con sus redes sociales o gmail. Se encuentra en su versión 2.8.3. Se encuentra activo y en uso.
-| Mageplaza/Spanish pack (mageplaza/magento-2-spanish-language-pack) | vendor | Realiza el cambio de idioma a través del diccionario de traducción en línea en la tienda Magento 2. Se encuentra en la versión dev-master. Se encuentra activo y en uso.
-| Mirasvit Gift (mirasvit/module-gift-registry) | vendor | Permite confeccionar una lista de regalos por parte del cliente. Se encuentra en su versión 1.2.36. Está activo y en uso.
-| Magento Cloud MetaPackage (magento/magento-cloud-metapackage) | vendor | Componentes base de cloud para Magento 2.x. Se encuentra en su versión  2.4.0. Está activo y en uso.
+| Modulo | Ubicación | Description | Activo
+| ---------- | ----------- | ----------- | -----------:
+| Dangs (dangs/tax-info-hide) | app/code | Esta extensión se utiliza para ocultar la información del total de impuestos cuando se aplica. | SI
+| Ebizmarts (mailchimp/mc-magento2) | app/code | Es una plataforma externa de email marketing que también permite informar carritos abandonados. | SI
+|[Pack Magebig](#Pack-Magebig-contiene) | app/code | Es un Multipurpose Magento 2 pack que contiene el layout y  varios módulos para manejar apariencia de la tienda (cms. widget) y también contiene el ajax para filtros, carrito, buscador etc. Tiene similitudes a lo ofrecido en Mageplaza y Amasty con el layered navigation. En este módulo se esta basando la construcción del theme de  la tienda en  la carpeta “desing/frontend/MageBig/matfury”. | SI
+| Magefan/Blog (magefan/module-blog) | app/code | Extensión que te permite administrar  un blog sin tener que depender de ninguna segunda plataforma. No está en uso, tiene solamente un post test. | SI
+| Magefan/Community (magefan/module-community) | app/code | Módulo base de Magefan y requerido en cualquier instalación de otro módulo del mismo proveedor. | SI
+| Magefan/Product Widget Advanced (magefan/module-wysiwyg-advanced) | app/code | Es un editor que permite cargar un widget de producto, páginas de CMS o contenidos de bloques de CMS utilizando el editor WYSIWYG. También puede insertar Product Widget en bloques específicos en las páginas de su tienda. Está activo pero no veo uso en la tienda. | SI
+| Paradox Labs/Cybersource (paradoxlabs/cybersource) | app/code | Es una pasarela de pagos para tarjetas de crédito, es actualmente con lo que están realizando las transacciones a parte de pago en efectivo. | NO
+| Paradox Labs/Token Base (paradoxlabs/tokenbase) | app/code | Módulo base para los métodos de pago de tokenización de Paradox Labs. | NO
+| Stamped/Core | app/code | Permite mostrar contenido generado por el usuario (CGU), como reseñas y calificaciones con estrellas, mediante el uso de encuestas automatizadas y formularios en el correo electrónico. Está activo y en uso. | SI
+|[Pack Magecomp SMS](#Pack-Magecomp-SMS-contiene) | app/code | Extensión de notificación por SMS. Envía a los clientes avisos sobre diversas actividades de estado de pedidos a través de mensajes de texto. Se encuentra en la versión Pro del pack. Está activo y en uso con un celular de prueba.  | SI
+| Mcfadyen/Sap Integration (mcfadyen/module-sapintegration) | app/code | Es el módulo por el cual generan sus integraciones con el sistema SAP, actualmente con el endpoint de test. Endpoint: https://test.apitiendaamiga.com/api/Orders / Carpetas de desarrollos custom a revisar. (Revisar la instalación completa de Mcfayden pack). | SI
+| TiendaAmiga | app/code | .. | SI
+|[Pack Mageworx](#Pack-Mageworx-contiene) | vendor | Este paquete se encarga de todo lo referido a store locator y pickup llamando a google api para sus operaciones, se encuentra actualmente en su versión 1.6.1. Está activo y en uso. | SI
+| Cweagans (weagans/composer-patches) | vendor | Modulo para instalar patches en  Magento 2. | NO
+| Mageplaza/Social Login (mageplaza/magento-2-social-login) | vendor | Extensión para que el usuario haga un login con sus redes sociales o gmail. Se encuentra en su versión 2.8.3. Se encuentra activo y en uso. | SI
+| Mageplaza/Spanish pack (mageplaza/magento-2-spanish-language-pack) | vendor | Realiza el cambio de idioma a través del diccionario de traducción en línea en la tienda Magento 2. Se encuentra en la versión dev-master. Se encuentra activo y en uso. | SI
+| Mirasvit Gift (mirasvit/module-gift-registry) | vendor | Permite confeccionar una lista de regalos por parte del cliente. Se encuentra en su versión 1.2.36. Está activo y en uso. | SI
+| Magento Cloud MetaPackage (magento/magento-cloud-metapackage) | vendor | Componentes base de cloud para Magento 2.x. Se encuentra en su versión  2.4.0. Está activo y en uso. | SI *
 
 <h3>Pack Magebig contiene</h3>
 
