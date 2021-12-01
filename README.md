@@ -7,8 +7,8 @@
 - [Datos generales](#datos-generales)
 - [Detalle de los modulos](#detalle-de-los-modulos)
 - [Estado actual de las integraciones](#estado-actual-de-las-integraciones)
-- [Listado de modulos habilitados](#lista-de-modulos-habilitados)
-- [Listado de modulos deshabilitados](#lista-de-modulos-deshabilitados)
+- [Listado de modulos habilitados](#listado-de-modulos-habilitados)
+- [Listado de modulos deshabilitados](#listado-de-modulos-deshabilitados)
 
 ## Objetivo del documento
 <p>
@@ -101,7 +101,6 @@ Integration:
     La tienda  tiene un módulo de integración con el middleware. Recibe una orden por vez y encola el proceso. (En la reunión de integración se barajó la idea de poder lotear la cantidad de órdenes a mandar en días de eventos especiales como el Cyber monday en donde reciben alrededor de 250 en una jornada, diariamente son 10 aproximadas por dia. Esta opción sería configurable.</p>
 
 ## Listado de modulos habilitados
-| Modulos Habilitados | 
 | :----------- | 
 Magento_AdminAnalytics
 Magento_Store
@@ -579,7 +578,6 @@ Vertex_AddressValidation
 Yotpo_Yotpo
 
 ## Listado de modulos deshabilitados
-| Modulos Habilitados | 
 | :----------- |
 Magento_Csp
 Magento_TwoFactorAuth
