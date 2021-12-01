@@ -1,4 +1,5 @@
-<p align="center"><a href="https://www.tiendaamiga.com.bo/" target="_blank"><img src="https://www.tiendaamiga.com.bo/media/logo/stores/1/logo.png" alt="Tienda Amiga" width=220></a><h2 align="center">Lyracons - Tienda Amiga</h2></p>
+<h1 align="center">Lyracons - Tienda Amiga</h1>
+<p align="center"><a href="https://www.tiendaamiga.com.bo/" target="_blank"><img src="https://www.tiendaamiga.com.bo/media/logo/stores/1/logo.png" alt="Tienda Amiga" width=220></a></p>
   
 ## Contenido
 
