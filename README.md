@@ -8,7 +8,7 @@
 - [Detalle de los modulos](#detalle-de-los-modulos)
 - [Estado actual de las integraciones](#estado-actual-de-las-integraciones)
 - [Listado de modulos habilitados](#listado-de-modulos-habilitados)
-- [Listado de modulos deshabilitados](#listadi-de-modulos-deshabilitados)
+- [Listado de modulos deshabilitados](#listado-de-modulos-deshabilitados)
 
 ## Objetivo del documento
 <p>
